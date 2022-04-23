@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'first_page.dart';
-import 'ordered_menu.dart';
+import 'package:kioskapp/page/first_page.dart';
+import 'package:kioskapp/ordered_menu.dart';
 
 class PayPage extends StatelessWidget {
   const PayPage({Key key}) : super(key: key);

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:kioskapp/order_page.dart';
+import 'package:kioskapp/page/order_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kioskapp/singleTon.dart';
+
+import 'camera_page.dart';
 
 class firstPage extends StatefulWidget {
 
@@ -91,6 +93,12 @@ class _firstPageState extends State<firstPage> {
                         setState(() {
                           age.selectedAgeGroup = 2;
                         });
+                      }),
+                  RaisedButton(
+                      child: Text('얼굴인식'),
+                      onPressed: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => cameraPage()));
                       }),
                   Text('선택한 그룹 : '+ageGroup[age.selectedAgeGroup]),
                 ],

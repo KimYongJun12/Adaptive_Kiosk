@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kioskapp/singleTon.dart';
 
-import 'first_page.dart';
+import 'package:kioskapp/page/first_page.dart';
 
 
 void main() => runApp(myApp());

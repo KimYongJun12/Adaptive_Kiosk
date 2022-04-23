@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kioskapp/singleTon.dart';
-import 'Product.dart';
-import 'details/detail_screen.dart';
-import 'item_card.dart';
+import 'package:kioskapp/Product.dart';
+import 'package:kioskapp/details/detail_screen.dart';
+import 'package:kioskapp/item_card.dart';
 import 'pay_page.dart';
 
 class orderPage extends StatefulWidget {
