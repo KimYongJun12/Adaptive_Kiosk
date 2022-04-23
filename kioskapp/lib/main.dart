@@ -10,7 +10,7 @@ class myApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title : '제목입니다',
+        title : '제목입니다dd',
         // home: myHomepage('제목입니다123'),
         home: firstPage()
 
