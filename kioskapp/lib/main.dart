@@ -3,6 +3,8 @@ import 'package:kioskapp/singleTon.dart';
 
 import 'package:kioskapp/page/first_page.dart';
 
+import 'api/my_api_test.dart';
+
 
 void main() => runApp(myApp());
 class myApp extends StatelessWidget {
@@ -12,7 +14,7 @@ class myApp extends StatelessWidget {
     return MaterialApp(
         title : '제목입니다dd',
         // home: myHomepage('제목입니다123'),
-        home: firstPage()
+        home: myApiPage(),
 
     );
   }
